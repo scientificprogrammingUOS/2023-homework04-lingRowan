@@ -1,14 +1,16 @@
 import numpy as np
+from numpy.random import normal
 
 # implement the function gaussian_analysis
 
-def gaussian_analysis():
-        
-    # delete the NotImplementedError when you write your function.
-    raise NotImplementedError
+def gaussian_analysis(n):
+        norm = normal(size = n)
+        return norm
+    
 
 
 if __name__ == "__main__":
-    # use this for your own testing!
+    print(gaussian_analysis(50))
+    
 
     pass
