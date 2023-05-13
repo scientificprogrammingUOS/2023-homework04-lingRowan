@@ -3,7 +3,7 @@ import numpy as np
 # implement your function to combine two numpy arrays 
 
 def combination(a,b):
-    combining = a + b
+    combining = np.concatenate((a,b))
     return combining
 
 

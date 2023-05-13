@@ -4,8 +4,9 @@ import numpy as np
 
 def strange_pattern(m , n):
     # delete the NotImplementedError when you write your function.
-    arr = np.empty(shape = (m,n))
-    bool_array = np.array(arr, dtype = 'bool')
+    #arr = np.empty(shape = (m,n))
+    #bool_array = np.array(arr, dtype = 'bool')
+    bool_array = np.random.choice([True,False], size = (m,n))
     return bool_array
 
 
