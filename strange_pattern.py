@@ -2,11 +2,8 @@ import numpy as np
 
 # implement the function strange pattern
 
-def strange_pattern(m , n):
-    # delete the NotImplementedError when you write your function.
-    #arr = np.empty(shape = (m,n))
-    #bool_array = np.array(arr, dtype = 'bool')
-    bool_array = np.random.choice([True,False], size = (m,n))
+def strange_pattern(size):
+    bool_array = np.random.choice([True,False], size = size)
     return bool_array
 
 
